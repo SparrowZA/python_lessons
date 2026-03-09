@@ -179,20 +179,6 @@ git add .
 git commit -m "Descriptive message about changes"
 ```
 
-## Running the Examples
-
-1. Navigate to the desired unit folder:
-   ```bash
-   cd unit_01
-   ```
-
-2. Run a Python file:
-   ```bash
-   python Answers.py
-   ```
-
-3. Or run exercises and check against provided solutions
-
 ## Tips for Learning
 
 - Start with Unit 01 and progress sequentially
