@@ -1,0 +1,117 @@
+1. Create a dictionary of all the students and their marks. Then calculate the class average and
+print it to the console.
+BONUS: Calculate the median.
+
+Jeff		34.5
+Tammy		87.3
+Esethu		65.4
+Oscar		60.9
+Pierre		56.7
+Sarah		91.7
+Tim		43.5
+Theunis		73.1
+Marc		69.2
+Jessica		53.6
+
+
+2. Use the phonebook file provided to do the problems below.
+2.1 Change Laura Moore's number to 555-0153.
+2.2 Remove Noah Delgado from the phonebook.
+2.3 Add the dictionary in appendix A to the existing phonebook dictionary.
+2.4 It's time to search for thos spam callers. Do a reverse number look up on the dictionary.
+Using code do a reverse look up on the number "555-0129" and print the name and number.
+
+
+3. Using your knowledge of data structures, create a data structure with the following data in it
+(Hint: We want to be able to search by country, this will be a nested structure).
+
+Country		 	    Capital	    Languages
+Algeria                     Algiers         Arabic
+Angola                      Luanda          Portuguese
+Benin                       Porto-Novo      French
+Botswana                    Gaborone        English
+Burkina Faso                Ouagadougou     French
+Burundi                     Bujumbura       French and Kirundi
+Cameroon                    Yaoundé         French
+Cape Verde                  Praia           Portuguese
+Central African Republic    Bangui          French
+Chad                        N'Djamena       French and Arabic
+Comoros                     Moroni          Shikomoro, Arabic and French
+Congo                       Brazzaville     French
+Ivory Coast                 Yamoussoukro    French
+Djibouti                    Djibouti        French and Arabic
+Egypt                       Cairo           Arabic
+Equatorial Guinea           Malabo          Spanish and French
+Eritrea                     Asmara          Tigrinya, Tigre and Standard Arabic
+Ethiopia                    Addis Ababa     Amharic
+Gabon                       Libreville      French
+Gambia                      Banjul          English
+Ghana                       Accra           English
+Guinea                      Conakry         French
+
+3.1 List all the countries that speak French
+
+
+4. Use the TestExample.py text for the next examples
+4.1 Count the number of occurances of the following words:
+	"the"
+	"at"
+	"and"
+	"island"
+	"man"
+4.2 Use nested for loops to count the number of letter occurances (DO NOT USE A DICTIONARY FOR THIS
+EXAMPLE).
+4.3 Use a dictionary to count the letter occurances.
+
+
+5. Given the following dictionary. Reverse the dictionary so that the key becomes the language and
+the values are the countries.
+african_countries: dict = {
+"Algeria"                     : "Arabic",
+"Angola"                      : "Portuguese",
+"Benin"                       : "French",
+"Botswana"                    : "English",
+"Burkina Faso"                : "French",
+"Burundi"                     : "French",
+"Cameroon"                    : "French",
+"Cape Verde"                  : "Portuguese",
+"Central African Republic"    : "French",
+"Chad"                        : "French and Arabic",
+"Comoros"                     : "Arabic and French",
+"Congo"                       : "French",
+"Ivory Coast"                 : "French",
+"Djibouti"                    : "French and Arabic",
+"Egypt"                       : "Arabic",
+"Equatorial Guinea"           : "Spanish and French",
+"Eritrea"                     : "Tigre and Arabic",
+"Ethiopia"                    : "Amharic",
+"Gabon"                       : "French",
+"Gambia"                      : "English",
+"Ghana"                       : "English",
+"Guinea"                      : "French"
+}
+
+Appendix A
+==========
+contacts = {
+    "Alice Johnson": "555-0134",
+    "Bob Smith": "555-0912",
+    "Carol Lee": "555-8675",
+    "David Wright": "555-1357",
+    "Emma Davis": "555-2468",
+    "Frank Brown": "555-3321",
+    "Grace Miller": "555-6472",
+    "Helen Clark": "555-0246",
+    "Ian Walker": "555-1597",
+    "Julia Turner": "555-8635",
+    "Kevin Harris": "555-7843",
+    "Laura Young": "555-2580",
+    "Mark Allen": "555-9876",
+    "Nina Scott": "555-2134",
+    "Oscar King": "555-3498",
+    "Paula Baker": "555-0751",
+    "Quentin Reed": "555-6382",
+    "Rachel Green": "555-4317",
+    "Sam Carter": "555-8923",
+    "Tina Perez": "555-6048"
+}

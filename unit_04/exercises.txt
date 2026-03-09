@@ -1,0 +1,105 @@
+1. Sum Items in List
+Create a function that takes in a the list below and reutrns the sum of all the
+values in the list.
+
+(Copy this into your python file)
+monthly_costs: float = [121.98, 879.45, 19.00, 23.99, 83.01, 43.22]
+
+
+2. Get Largest Number in List
+Given the list below, find the largest and smallest values of the list.
+
+(Copy this into your python file)
+number_list: list[int] = [
+            155, 446, 753, 368, 173, 459, 858, 772, 826, 54, 114, 925, 869,
+            220, 306, 293, 907, 169, 662, 302, 157, 133, 298, 383, 67, 82, 972,
+            803, 574, 663, 519, 48, 468, 685, 202, 950, 35, 939, 906, 845, 210,
+            7, 422, 152, 393, 247, 337, 91, 68, 571, 313, 553, 77, 350, 529,
+            694, 997, 936, 642, 135, 629, 424, 224, 531, 813, 46, 781, 504,
+            648, 944, 477, 834, 666, 653, 734, 369, 926, 31, 63, 665, 352, 142,
+            66, 521, 851, 389, 912, 38, 402, 355, 192, 913, 824, 250, 385, 917,
+            933, 968, 562, 61
+        ]
+
+
+3. String length
+Given the list of strings below, write a function that calculates the average
+length of the strings in the list. The function should take a list as its 
+parameter
+
+(Copy this into your python file)
+word_list: list = [
+    "apple", "banana", "cherry", "delta", "eagle", "forest", "giraffe",
+    "honey", "island", "jungle", "kangaroo", "lemon", "monkey", "nectar",
+    "orange", "peach", "quartz", "river", "sunset", "tiger", "umbrella",
+    "violet", "water", "xenon", "yellow", "zebra", "waiter", "wanted"
+]
+
+4. Create a random list
+Create a list of 100 unique random numbers between 1-1000
+
+
+5. Count the strings with the same ending
+Create a function that counts the number of strings that end with a specific
+string. The function should take 2 parameters, the string list and the ending
+string and return only the count.
+NOTE: Use the values below to test
+
+(Copy this into your Python file)
+word_list: list = [
+    "apple", "banana", "cherry", "delta", "eagle", "forest", "giraffe",
+    "honey", "island", "jungle", "kangaroo", "lemon", "monkey", "nectar",
+    "orange", "peach", "quartz", "river", "sunset", "tiger", "umbrella",
+    "violet", "water", "xenon", "yellow", "zebra", "waiter", "wanted"
+]
+# Word endings to test with
+ending: str = "set" -> Expected = 1
+ending: str = "a"   -> Expected = 4
+ending: str = "wa"  -> Expected = 0
+ending: str = ""    -> Expected = 28
+
+6. Reverse list
+Write a function that takes a list as its parameter and returns a list of the same
+values but the order of the list is reversed.
+Note: Don't use Python list's reverse function. Do it yourself :)
+
+
+7. Working with S-parameters
+The 2D-Matrix below represents the S-parameters coming back from a network analyser.
+We've measured the S-parameters (insertion and reflection) for a single board over
+50 discreate frequencies.
+The matrix is as follows
+Board measuremente[
+    [S11],
+    [S22],
+    [S12],
+    [S21]
+]
+i. Calculate the average value for each of the S-parameters.
+ii. Calculate the Square root([Each S21 value] + [the S11 average]). this should result
+    in a 1D array (List).
+iii. Calculate the S11 - S12 for each value
+
+
+rf_board: list[list[int]] = [
+    [
+        48, 90, 52, 23, 93, 39, 26, 12, 53, 63, 88, 37, 80, 34, 16, 81, 22, 40,
+        27, 21, 68, 14, 80, 90, 93, 22, 23, 66, 3, 47, 13, 72, 52, 13, 48, 37, 33,
+        73, 5, 15, 93, 55, 58, 83, 25, 88, 83, 77, 11, 90
+    ],
+    [
+        32, 33, 11, 2, 67, 29, 29, 77, 55, 65, 33, 90, 54, 98, 47, 53, 38, 24, 78,
+        34, 55, 73, 33, 10, 97, 6, 93, 30, 32, 57, 3, 59, 50, 51, 19, 87, 83, 62,
+        71, 68, 83, 20, 35, 61, 37, 61, 17, 32, 75, 4
+    ],
+    [
+        52, 5, 68, 90, 67, 4, 30, 0, 8, 32, 6, 19, 69, 10, 34, 70, 19, 84, 89, 18,
+        11, 4, 72, 23, 70, 48, 48, 62, 93, 71, 57, 69, 10, 6, 85, 9, 32, 85, 79,
+        26, 18, 66, 63, 92, 51, 56, 74, 74, 47, 34
+    ],
+    [
+        14, 47, 24, 12, 39, 59, 4, 89, 7, 12, 62, 11, 63, 96, 52, 92, 83, 88, 19,
+        58, 90, 33, 17, 20, 46, 4, 63, 71, 34, 92, 41, 46, 96, 10, 17, 86, 66,
+        41, 69, 57, 8, 61, 20, 73, 38, 16, 58, 94, 46, 87
+    ]
+]

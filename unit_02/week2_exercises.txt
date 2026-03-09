@@ -1,0 +1,127 @@
+If statement Exercises
+======================
+1. Vowel or Consonant (Solved—16 Lines) 
+In this exercise you will create a program that reads a letter of the alphabet from the user. 
+If the user enters a, e, i, o or u then your program should display a message indicating that 
+the entered letter is a vowel. If the user enters y then your program should display a 
+message indicating that sometimes y is a vowel, and sometimes y is a consonant. Otherwise 
+your program should display a message indicating that the letter is a consonant.
+
+
+2. Faces on Money (31 Lines) 
+It is common for images of a country’s previous leaders, or other individuals of 
+historical significance, to appear on its money. The individuals that appear on banknotes in 
+the United States are listed in Table 2.1. Write a program that begins by reading the 
+denomination of a banknote from the user. Then your program should display the name of the 
+individual that appears on thebanknote of the entered amount. An appropriate error message 
+should be displayed if no such note exists.
+
+George Washington       $1
+Thomas Jefferson        $2
+Abraham Lincoln         $5
+Alexander Hamilton      $10
+Andrew Jackson          $20
+Ulysses S. Grant        $50
+Benjamin Franklin       $100
+
+
+3. Richter Scale (30 Lines)
+The following table contains earthquake magnitude ranges on the Richter scale and
+their descriptors:
+
+Magnitude               Descriptor
+Less than 2.0           Micro
+2.0 to less than 3.0    Very minor
+3.0 to less than 4.0    Minor
+4.0 to less than 5.0    Light
+5.0 to less than 6.0    Moderate
+6.0 to less than 7.0    Strong
+7.0 to less than 8.0    Major
+8.0 to less than 10.0   Great
+10.0 or more            Meteoric
+
+Write a program that reads a magnitude from the user and displays the appropriate descriptor 
+as part of a meaningful message. For example, if the user enters 5.5 then your program should 
+indicate that a magnitude 5.5 earthquake is considered to be a moderate earthquake.
+
+
+
+
+
+
+Loop Exercises
+==============
+1. Average (26 Lines) 
+In this exercise you will create a program that computes the average of a collection of values 
+entered by the user. The user will enter 0 as a sentinel value to indicate that no further 
+values will be provided. Your program should display an appropriate error message if the 
+first value entered by the user is 0.
+Hint: Because the 0 marks the end of the input it should not be included in the average.
+
+
+2. Temperature Conversion Table (22 Lines) 
+Write a program that displays a temperature conversion table for degrees Celsius and degrees 
+Fahrenheit. The table should include rows for all temperatures between 0 and 100 degrees 
+Celsius that are multiples of 10 degrees Celsius. Include appropriate headings on your columns. 
+The formula for converting between degrees Celsius anddegrees Fahrenheit can be found on the 
+internet.
+
+
+3. Heads and tails
+Write a program that works out the average of heads and tails ofa coin flip. The program needs
+to ask the user to enter the amount of coin tosses the program is to use. The program will then
+simulate the specified number of coin tosses and display the amount of heads, tails and the 
+average of each.
+Hint: Use the random module and the randint fucntion.
+
+
+4. Star tree
+Using loops create a star tree as seen below. The number of stars in each row is the number of
+the loop iteration.
+
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+
+
+
+
+
+
+Function Exercises
+==============
+1. Compute the Hypotenuse (23 Lines) 
+Write a function that takes the lengths of the two shorter sides of a right triangle as its 
+parameters. Return the hypotenuse of the triangle, computed using Pythagorean theorem, as 
+the function’s result. Include a main program that reads the lengths of the shorter sides of a 
+right triangle from the user, uses your function to compute the length of the hypotenuse, and 
+displays the result.
+
+
+2. Shipping Calculator (23 Lines) 
+An online retailer provides express shipping for many of its items at a rate of $10.95 for the 
+first item, and $2.95 for each subsequent item. Write a function that takes the number of items 
+in the order as its only parameter. Return the shipping charge for the order as the function’s 
+result. Include a main program that reads the number of items purchased from the user and 
+displays the shipping charge.
+
+
+3.Median of Three Values (Solved—42 Lines) 
+Write a function that takes three numbers as parameters, and returns the median value of those 
+parameters as its result. Include a main program that reads three values from the user and 
+displays their median.
+Hint: The median value is the middle of the three values when they are sorted into ascending 
+order. It can be found using if statements, or with a little bit of mathematical creativity.
+
+
+4. Capitalize It
+Write a function that takes one string parameter. It should then capitalise the first and last
+letter and return the string.
+

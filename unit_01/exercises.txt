@@ -1,0 +1,52 @@
+1. Mailing address (~9 Lines)
+Create a program that displays your name and address as it would appear on mail. 
+Your program does not need to read any input from the user. The format should be 
+as follows:
+- Name and surname
+- Street address
+- Postal code
+- City
+- Province
+- Country
+
+
+2. Hello (~9 Lines)
+Write a program that asks the user to enter his or her name. The program should
+respond with a message that says hello to the user, using his or her name.
+
+
+3. Area of a Room (~13 Lines)
+Write a program that asks the user to enter the width and length of a room. 
+Once the values have been read, your program should compute and display the 
+area of the room. The length and the width will be entered as floating point 
+numbers. Include units in your prompt and output message, use meters.
+
+4. Tax and Tip (~17 Lines)
+The program that you create for this exercise will begin by reading the cost 
+of a meal ordered at a restaurant from the user. Then your program will 
+compute the tax and tip for the meal. Use a tax rate of 5% when computing 
+the amount of tax owing. Compute the tip as 18 percent of the meal amount 
+(without the tax). The output from your program should include the tax amount, 
+the tip amount, and the grand total for the meal including both the tax and the 
+tip. Format the output so that all of the values are displayed using two 
+decimal places.
+
+5. Odd or even
+The program that you create for this exercise will begin by reading an integer
+value from the user. The program will then output either "ODD" or "EVEN" 
+depending on if the user's number is odd or even.
+
+6. Sum of the First n Positive Integers (~12 Lines)
+Write a program that reads a positive integer, n, from the user and then 
+displays the sum of all of the integers from 1 to n. The sum of the first n 
+positive integers can be computed using the formula:
+sum = (n)(n + 1) 
+          2
+
+7. Fahrenheit to Celsius
+Write a program that begins by reading a temperature from the user in degrees 
+Fahrenheit. Then your program should display the equivalent temperature in 
+degrees Celsius. The calculations needed to convert between different units 
+of temperature is degrees Fahrenheit to Celsius, subtract 32 and multiply by 
+0.5556 (or 5/9).
+BONUS: write another program to do the reverse (Celsius to Fahrenheit).
